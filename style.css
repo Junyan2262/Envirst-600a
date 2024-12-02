@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 通用样式 */
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  color: red;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  width: 120px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+nav {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #b4222a;
+}
+
+.active {
+  background-color: #b4222a;
+}
+
+main {
+  width: 100%;
+  flex: 1;
+  position: relative;
+  padding: 20px;
+}
+
+.index {
+  background-image: url(./1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.section {
+  padding: 40px;
+  background-color: white; /* 修改为淡红色 */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 40%;
+}
+
+.title {
+  color: #ed7d31;
+  line-height: 3;
+  font-size: 32px;
+  text-align: center;
+}
+
+.item {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.item img {
+  min-width: 300px;
+}
+
+.section2 p {
+  line-height: 2;
+}
+
+.section2 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title2 {
+  color: #4472c4;
+  line-height: 1;
+  font-size: 24px;
+  text-align: center;
+}
+
+.title3 {
+  color: #b0b0b0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.leftright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.leftright .left ul{
+    border: 2px solid #b0b0b0;
+    margin: 20px;
+    padding: 20px;
+}
+
+.left li{
+    list-style: none;
+    padding: 10px 0;
+}
